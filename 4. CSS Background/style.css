@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20211115/pngtree-plain-abstract-blue-background-hd-with-wave-image_916069.png);
+    background-repeat: no-repeat;
+    /* background-position: left;
+    background-attachment: fixed; */
+    background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+/*
+
+
+h2{
+    color: blue;
+    background-color: yellow;
+    opacity: 1.0;
+}*/
+
+/* 
+.container{
+    background-color: aqua;
+    width: 300px;
+    height: 220px;
+    background-image: url(https://t4.ftcdn.net/jpg/04/61/47/03/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg);
+    background-position: center;  You can add more activites like left right top botton
+} */
