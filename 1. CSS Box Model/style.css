@@ -1,0 +1,32 @@
+*{
+    background-color: #ccc;
+    margin: 0;
+}
+.heading{
+    background-color: blue;
+    color: #fff;
+    margin: 0;
+    border: solid 4px #111;
+    padding: 20px;
+    margin: 10px;
+    /* padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 70px; */
+    padding: 40px 60px;
+    padding: 40px auto;
+    margin-top: 60px;
+    margin: 50px 70px;
+    margin: 50px auto;
+    width: 30rem;
+    height: 10px;
+}
+p{
+    background-color: #fff;
+    padding: 10px 20px;
+    text-align: justify;
+    margin: 10px;
+    /* max-width: 50px; */
+    max-height: 50px !important;
+    overflow-y: scroll;
+}
