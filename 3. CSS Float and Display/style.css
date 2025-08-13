@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 30px auto;
+    background-color: rgb(250, 250, 250);
+    border: solid 2px #ccc;
+    padding: 10px;
+}
+.container >h1{
+    background-color: skyblue;
+    padding: 20px 10px;
+    color: darkblue;
+    text-align: center;
+}
+.container >img{
+    height: 200px;
+    width: 200px;
+    margin: 20px 15px 10px 0px;
+    background-color: grey;
+    padding: 10px;
+    float: left;
+}
+.container > .text{
+    color: rgb(104, 104, 104);
+    margin: 20px 10px;
+    text-align: justify;
+}
+.clear{
+    clear: left;
+}
