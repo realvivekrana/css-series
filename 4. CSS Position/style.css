@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    background-color: lightblue;
+}
+
+/*
+
+Position in HTML Elements
+position
+static
+relatative
+absolute
+fixed
+sticky
+
+z-index
+
+
+*/
+
+.item{
+    width: 200px;
+    height: 200px;
+    background: rgb(137, 137, 240);
+    margin: 40px 0 0 40px;
+    /* position: static; */
+    position: relative;
+}
+
+.item >div{
+    width: 200px;
+    height: 200px;
+    background: rgb(25, 25, 219);
+    margin: 40px 0 0 0;
+    /* position: static; */
+    position: relative;
+    /* top: 20px;
+    left: 30px; */
+    right: 40px;
+    bottom: 30px;
+
+}
+
+.item2{
+    width: 200px;
+    height: 200px;
+    background: rgb(7, 7, 53);
+    margin: 40px 0 0 40px;
+    /* position: static; */
+    position: relative;
+}
+
+
+.item2 >div{
+    width: 50px;
+    height: 50px;
+    background: #f42222;
+    /*
+    
+    1. position absolute direct
+        it will egnor other HTML element
+        and then position itself with the body
+    */
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+.item3{
+     width: 200px;
+    height: 200px;
+    background: rgb(0, 0, 255);
+    margin: 0 10px;
+    position: fixed;
+    top: 0;
+}
+
+
+.item4{
+     width: 200px;
+    height: 200px;
+    background: rgb(138, 6, 143);
+    margin: 0 10px;
+    position: sticky;
+    top: 20px;
+    z-index: 100px;
+}
+
+
