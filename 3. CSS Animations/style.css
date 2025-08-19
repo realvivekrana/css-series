@@ -1,0 +1,44 @@
+*{
+    background-color: rgb(187, 223, 223);
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background: darkblue;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* transition: all  1.5s ease-in; */
+
+}
+
+.container:hover > .child{
+    /* animation-play-state: paused; */
+    /* transform: translateX(500%);
+    background-color: yellow; */
+    animation: round 2s ease-in backwards infinite alternate;
+}
+@keyframes round{
+        /* states in the animations */
+        /* initial, repraid, mid post mid animation */
+
+    0%{
+        transform: translateX(0%); 
+    }
+
+    33%{
+        transform: translateY(500%);
+    }
+
+    75%{
+        transform: translateX(500%) translateY(500%);
+    }
+
+    100%{
+        transform: translateX(500%);
+    }
+};
