@@ -1,0 +1,23 @@
+/*Combinator*/
+
+/* .container p{
+    color: yellow;
+} */
+ 
+/* .container >p{
+    color: yellow;
+} */
+
+/* .container >.inside-container >p{
+    color: yellow;
+} */
+
+.container >p{
+    color: yellow;
+}
+
+/*Sibiling combinator*/
+
+li + li{
+    color: red;
+}
