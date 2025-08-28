@@ -1,0 +1,25 @@
+ h1{
+    background-color: gold;
+    color: black;
+}
+h2,h3,h4{
+    background-color: rgb(239, 173, 235);
+    color: rgb(6, 3, 40);
+}
+p{
+    font-size: 20px;
+}
+a{
+   font-size: 20px;
+   text-decoration: none;
+}
+img{
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+}
+table,th,td{
+    border: solid 2px red;
+    border-collapse: collapse;
+    padding: 10px;
+}
