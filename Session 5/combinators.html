@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+    <style>
+        /*Select all P childs of div tags*/
+        /* div p{
+            background-color: pink;
+        } */
+
+        /*Select only child no grand child*/
+         /* div>p{
+            background-color: pink;
+         } */
+
+        /*Select only First Sibling*/
+          /* div+p{
+            background-color: pink;
+         } */
+
+        /*Select all Sibling*/
+          div~p{
+            background-color: pink;
+         }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Child class of Div Tag</p>
+        <p>Child class of Div Tag</p>
+        <section>
+            <p>Grand child of Div Tag</p>
+            <p>Grand child of Div Tag</p>
+        </section>
+    </div>
+    <p>Sibling of Div Tag</p>
+    <p>Sibling of Div Tag</p>
+</body>
+</html>

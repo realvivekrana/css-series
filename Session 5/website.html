@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Demo</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: 25% 50% 25%;
+        }
+        .header{
+            grid-column: 1/4;
+            height: 150px;
+            background-color: palegreen;
+        }
+        .sidebar{
+            background-color: palegoldenrod;
+            height: 400px;
+        }
+        .right{
+            background-color: palegoldenrod;
+            height: 400px;
+        }
+        .main{
+            background-color: peru;
+            height: 400px;
+        }
+        .footer{
+            grid-column: 1/4;
+            height: 100px;
+            background-color: palevioletred;
+        }
+        .flex-container{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="header">
+            <div class="flex-container">
+        <div class="border-left">
+            <img src="https://play-lh.googleusercontent.com/LpqJ2nS599acQ8_DMMcJ5ND1nIKj4X7E19Ltm6Ri0BGaidIyf-minIND2QVok7t6w7c" height="100" alt="image">
+        </div>
+        <div class="border-main">
+            <h1>Skill Academy by Testbook</h1>
+            <p>Learn anything anytime...</p>
+        </div>
+        <div class="border-right">
+            <h2>Customer Care 1800 1800 1800</h2>
+        </div>
+    </div>
+        </div>
+        <div class="sidebar"></div>
+        <div class="main"></div>
+        <div class="right"></div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
