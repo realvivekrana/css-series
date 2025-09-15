@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style>
+        div{
+            height: 250px;
+            width: 250px;
+            /* background: linear-gradient(red, yellow , green, blue); */
+               background: linear-gradient(60deg,
+                red 0%,
+                yellow 25%,
+                green 50%,
+                blue 75%),
+                darkslategrey 100%;
+        }
+        .redical{
+            background: radial-gradient(circle, yellow 5%,grey 20%,red 60%) ;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+
+    <div class="redical"></div>
+</body>
+</html>

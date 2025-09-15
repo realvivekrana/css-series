@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            color: black;
+            /* background-color: blue; */
+            position: relative;
+            animation: shifting 5s infinite;
+            border: 2px solid black;
+        }
+        .div1{
+            animation-timing-function: linear;
+            background-color: red;
+        }
+
+        .div2{
+            animation-timing-function: ease;
+            background-color: blue;
+        }
+
+        .div3{
+            animation-timing-function: ease-in;
+            background-color: chartreuse;
+        }
+        .div4{
+            animation-timing-function: ease-in-out;
+            background-color: darkviolet;
+        }
+        .div5{
+            animation-timing-function: ease-out;
+            background-color: darkslategray;
+        }
+        @keyframes shifting{
+            from{left: 0px;}
+            to{left: 900px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">linear</div>
+    <div class="div2">ease</div>
+    <div class="div3">ease-in</div>
+    <div class="div4">ease-in-out</div>
+    <div class="div5">ease-out</div>
+</body>
+</html>
